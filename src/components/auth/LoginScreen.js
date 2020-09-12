@@ -33,7 +33,8 @@ export const LoginScreen = () => {
                                 type="text"
                                 className="form-control"
                                 placeholder="Correo"
-                                name={lEmail}
+                                name="lEmail"
+                                value={lEmail}
                                 onChange={handleLoginInputChange}
                             />
                         </div>
@@ -42,7 +43,8 @@ export const LoginScreen = () => {
                                 type="password"
                                 className="form-control"
                                 placeholder="Contraseña"
-                                name={lPassword}
+                                name="lPassword"
+                                value={lPassword}
                                 onChange={handleLoginInputChange}
                             />
                         </div>
